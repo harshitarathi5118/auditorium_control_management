@@ -1,0 +1,28 @@
+auditorium-web-system/
+
+index.php
+config/
+  database.php
+api/
+  events.php
+  organizers.php
+  auditoriums.php
+  bookings.php
+  equipment.php
+  staff.php
+dashboard/
+  index.php
+  events.php
+  bookings.php
+  admin.php
+assets/
+  css/
+    style.css
+  js/
+    main.js
+  images/
+sql/
+  database.sql
+README.md
+.demo_script.txt
+.env.example

@@ -1,0 +1,35 @@
+1. Open dashboard: http://localhost/auditorium-web-system/dashboard/index.php
+
+2. Create an organizer:
+   - Go to Admin -> Create Organizer
+   - Fill name, department, contact, email
+   - Submit and confirm organizer appears in the list
+
+3. Create an event:
+   - Go to Events -> Create Event
+   - Choose organizer, date/time in the future
+   - Submit and confirm event appears in list
+
+4. Create a booking:
+   - Go to Bookings -> Create Booking
+   - Choose the event and an auditorium
+   - Submit and confirm booking appears in list
+
+5. Conflict prevention:
+   - Create another event at the same time, try to book same auditorium
+   - Booking should be blocked with "Auditorium already booked for this time"
+
+6. Update event:
+   - Go to Events list -> Edit next to event
+   - Change details, click Update Event
+   - Confirm changes
+
+7. Cancel booking:
+   - Go to Bookings list -> Cancel Booking
+   - Confirm removal
+
+8. Delete event:
+   - Events -> Delete (will be prevented if bookings exist)
+
+9. Handover:
+   - Provide README.md, sql/database.sql, .env.example
